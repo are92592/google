@@ -7,6 +7,8 @@ h1 {
     float: center;
     text-align: center;
     margin-top: 275px;
+    position: relative;
+    bottom: 100px;
 }
 
 #searchbox {
@@ -22,22 +24,30 @@ h1 {
     border-bottom-left-radius: 50px;
     border-color: white;*/
     border-radius: 50px;
+    position: relative;
+    bottom: 100px;
 }
 
 #top-left {
     position: absolute;
     top: 15px;
-    padding-left: 10px;
     text-decoration: none;
     word-spacing: 10px;
+    font-size: 14px;
+    color: grey;
+    padding-left: 20px;;
+    padding-top: 10px;
 }
 
 
 #top-right {
     position: relative;
-    left: 950px;
+    left: 1025px;
     top: 10px;
     word-spacing: 10px;
+    font-size: 14px;
+    color: grey;
+    padding-top: 10px;
 }
 
 a {
@@ -48,12 +58,43 @@ a {
 #buttons {
     position: relative;
     text-align: center;
-    top: 55px;
+    /*top: 55px;*/
+    bottom: 50px;
 }
 
 .search {
-    background-color: lightgrey;
+    background-color: rgb(240, 240, 245);
     padding: 10px;
     font-size: smaller;
+    border-radius:5px;
+}
+
+footer {
+    position: relative;
+    top: 350px;
+    background-color:rgb(240, 240, 245);
+    height: 45px;
+    width: 1250px;
+    border-top-color:black;
+    border-top-width: 10px;
+}
+
+#bottom-left {
+    position: relative;
+    top: 18px;
+    font-size: 14px;
+    word-spacing: 10px;
+    color: grey;
+    padding-left: 20px;
+    word-spacing: 15px;
+}
+
+#bottom-right {
+    position: relative;
+    left: 1040px;
+    font-size: 14px;
+    word-spacing: 15px;
+    color: grey;
+    top: 0px;
 }
 
